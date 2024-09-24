@@ -1,0 +1,118 @@
+@font-face {
+font-family: 'robotobold';
+src: url('../fonts/roboto-bold-webfont.eot');
+src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+     url('../fonts/roboto-bold-webfont.woff') format('woff'),
+     url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+     url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'roboto_condensedregular';
+src: url('../fonts/robotocondensed-regular-webfont.eot');
+src: url('../fonts/robotocondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+     url('../fonts/robotocondensed-regular-webfont.woff') format('woff'),
+     url('../fonts/robotocondensed-regular-webfont.ttf') format('truetype'),
+     url('../fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'robotolight';
+src: url('../fonts/roboto-light-webfont.eot');
+src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+     url('../fonts/roboto-light-webfont.woff') format('woff'),
+     url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+     url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'robotomedium';
+src: url('../fonts/roboto-medium-webfont.eot');
+src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+     url('../fonts/roboto-medium-webfont.woff') format('woff'),
+     url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+     url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'robotoregular';
+src: url('../fonts/roboto-regular-webfont.eot');
+src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+     url('../fonts/roboto-regular-webfont.woff') format('woff'),
+     url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+     url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family: 'robotothin';
+src: url('../fonts/roboto-thin-webfont.eot');
+src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+     url('../fonts/roboto-thin-webfont.woff') format('woff'),
+     url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
+     url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+@font-face {
+font-family: 'miriammedium';
+src: url('../fonts/miriam-webfont.eot');
+src: url('../fonts/miriam-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/miriam-webfont.woff2') format('woff2'),
+     url('../fonts/miriam-webfont.woff') format('woff'),
+     url('../fonts/miriam-webfont.ttf') format('truetype'),
+     url('../fonts/miriam-webfont.svg#miriammedium') format('svg');
+font-weight: normal;
+font-style: normal;}
+
+
+html {width: 100%; letter-spacing: normal;}
+body{width: 100%;font-family: 'robotoregular', sans-serif;}
+h5,h6 , h1 , h2 , h3 , h4 { font-weight: normal;font-family: 'ralewayregular', sans-serif; }
+body{ -webkit-font-smoothing: antialiased;font-family: 'ralewayregular', sans-serif;}
+a:active , select , select:focus , a:focus , a:hover , input:focus , button:focus , textarea:focus { outline: none !important; 
+text-decoration: none;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
+a , button{text-decoration: none;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
+
+/* 404-page css start here */
+
+.banner-404 {background-image: url(../images/404-banner.jpg);background-repeat: no-repeat;background-size: cover;min-height:850px;position: relative;}
+.wrapper {float: none;margin: 200px auto 0;max-width: 750px;text-align: center;}
+.wrapper h4 {color: #fff;font-size: 18px;  font-family: 'robotomedium', sans-serif;}
+.wrapper h1 {color: #ffc91b;font-family: "robotolight",sans-serif;font-size: 100px;margin-top: 5px;}
+.img2-404page img {margin: 0 auto;width: 90px;}
+.wrapper h5 {color: #fff;font-size: 16px;font-family: 'robotolight', sans-serif;padding-top: 10px;line-height: 22px;}
+.back-btn {background-color: transparent;border: 1px solid #fff;border-radius: 3px;color: #fff;margin-top: 30px;
+padding: 10px 45px;}
+.back-btn:hover { background-color:#fff;border: 1px solid #fff;color: #23294b;}
+.back-btn span{margin-right: 6px;}
+.man-404 {bottom: 0;position: absolute;width: 270px;}
+
+@media all and (max-width:767px){
+.banner-404 {min-height:700px;}    
+.wrapper{margin: 35px auto 0;}    
+.wrapper h1 {   font-size: 110px;}   
+.back-btn {padding: 10px 20px;}
+.man-404 {bottom: 0;position: absolute;width: 200px;}
+}

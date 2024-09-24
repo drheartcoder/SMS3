@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url('/')}}/css/export.css">
+  </head>
+  <body>
+    <header>
+        {{config('app.project.header')}} 
+    </header> 
+    <footer>
+            {{config('app.project.footer')}} 
+    </footer>
+    <main> 
+      <div align="center">
+      @if($school_logo!='')
+         <img src="{{$school_logo}}" alt="" />
+      @else
+          <img src="{{url('/').'/images/default-old.png'}}" alt="" />
+      @endif
+      </div>
+      <br>
+      <div align="center"><b>{{$school_name}}</b></div>
+      <div align="center">{{$school_address}}</div>
+      <div align="center">{{$school_email}}</div><br>
+
+      <table>
+        <tr>
+          <th>{{translation('sr_no')}}</th>
+          <th>{{translation('employee_number')}}</th>
+          <th>{{translation('name')}}</th>
+          <th>{{translation('email')}}</th>
+          <th>{{translation('national_id')}}</th>
+          <th>{{translation('license_no')}}</th>
+          <th>{{translation('action')}}</th>
+        </tr>
+        <?php $count=1; ?>
+        @foreach($arr_data as $value)
+        <tr>
+          <td>{{$count++}}</td>
+          <td>{{$value->employee_no}}</td>
+          <td>{{ucwords($value->user_name)}}</td>
+          <td>{{$value->email}}</td>
+          <td>{{$value->national_id}}</td>
+          <td>{{$value->license_no}}</td>
+          <?php  
+            $status = "";
+            if($value->is_active==1)
+            {
+                $status = "Active";
+            }
+            elseif($value->is_active==0)
+            {
+                $status = "In-active";
+            }
+          ?>
+          <td>{{$status}}</td>
+        </tr>
+        @endforeach
+      </table>
+    </main>  
+    
+</body>
+</html>

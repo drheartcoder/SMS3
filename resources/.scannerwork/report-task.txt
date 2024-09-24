@@ -1,0 +1,6 @@
+projectKey=test
+serverUrl=http://192.168.1.136
+serverVersion=7.1.0.11001
+dashboardUrl=http://192.168.1.136/dashboard/index/test
+ceTaskId=AWNFNKwxkbIc93oDaWQE
+ceTaskUrl=http://192.168.1.136/api/ce/task?id=AWNFNKwxkbIc93oDaWQE

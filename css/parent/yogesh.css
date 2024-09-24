@@ -1,0 +1,71 @@
+#sidebar #sidebar-collapse .open-arrow{display:none;color: #ffffff}
+#sidebar #sidebar-collapse .close-arrow{color: #ffffff}
+#sidebar.navbar-collapse.collapse.sidebar-collapsed #sidebar-collapse .open-arrow{display:inline-block;color: #ffffff}
+#sidebar.navbar-collapse.collapse.sidebar-collapsed #sidebar-collapse .close-arrow{display:none;color: #ffffff}
+#left-bar #main-container .side-bar-scroll{box-sizing: border-box; height: 90vh !important; overflow: auto !important;}
+.kid-select-drop .control-label{display: inline-block;margin-right: 6px;}
+.kid-select-drop .controls{display: inline-block}
+select{-moz-appearance: none;}
+.kid-select-drop .form-group .controls select{padding: 0 30px 0 5px;height: 30px; background-position: 98% 10px;}
+.flaty-nav > li.select-kig-main{max-height: none;line-height: normal;vertical-align: top;margin-top: 5px;margin-left: 10px;}
+.flaty-nav > li.select-kig-main:hover{background: transparent !important;}
+.kid-select-drop .form-group {margin: 0;}
+.unread-notification td{font-weight: 600;}
+.message-section-block{display: table;}
+.message-sender-proile{display: table-cell;vertical-align: middle}
+.profile-pic-sender{height: 40px;width: 40px;border-radius: 50%;border: 1px solid #dddddd;}
+.message-time{display: table-cell;vertical-align: middle}
+.message-notification-section .dropdown-navbar{min-width: 350px;}
+.message-sender-name-message{display: table-cell;vertical-align: middle;padding: 0 15px;}
+.message-seder-name{font-weight: 600;margin-bottom: 3px;}
+.dropdown-menu > li.see-all-messages{position: absolute;width: 100%;border-top: 1px solid #dddddd;bottom: 0;}
+.see-all-messages a{padding: 10px;text-align: center;}
+.input-group .form-control#subfile{width: 100%;}
+.upload-block .input-group {display: block;}
+.upload-block .input-group .btn.btn-primary.btn-file{position: absolute;right: 0;top: 0;z-index: 9;height: 40px;padding: 0}
+.upload-block .input-group .btn.btn-primary.btn-file a{color: #ffffff;display: block;padding: 6px 12px;height: 40px;line-height: 26px;}
+.level-section{display: inline-block;margin-right: 10px;font-weight: 600;}
+.class-level-section{float: left;}
+.prentinfomain{position: absolute;right: 0;top: 2px;line-height: 10px;}
+.date-seciton{position: relative;}
+.p-a{position: absolute;right: -13px;top: 27px;width: 300px;background: #ffffff;box-shadow: 0 0 20px rgba(0,0,0,0.10);z-index: 9;padding: 10px;border-radius: 3px;visibility: hidden;opacity: 0;transform: translate(-10px);}
+.p-a:before{content: "";border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #ffffff;position: absolute;top: -10px;right: 10px;}
+.info-viewpage{font-size: 17px;color: #333333;}
+.prentinfomain:hover .p-a{visibility: visible;opacity: 1;transform: translate(0px);}
+.date-seciton{margin: 5px 0;}
+.table.table-advance tbody tr td:last-child i{font-size: 14px;}
+.table.table-advance tbody tr:nth-child(2n+2){background-color: #fafafa;}
+.status-panding{font-weight: 600;color: red;}
+.table.table-advance thead th{vertical-align: top;}
+.news-img-section{height: 100px;width: 100px;border: 1px solid #dddddd;}
+.main-fees-section{font-size: 18px;text-decoration: underline;font-weight: 600;}
+.bus-fees-section{margin-top: 50px;}
+.table.table-advance tbody tr td:last-child a{padding: 10px;border-radius: 50%;line-height: 15px;background: #69768b;color: #ffffff;display: inline-block;width: 35px;height: 35px;}
+.box-tool .cog-icon-block{font-size: 20px;}
+.navbar .nav > li.onclick-remove.active > a, .navbar .nav > li.onclick-remove.active > a i{color: #ffffff !important;}
+.dropdown-navbar.dropdown-menu.create-scrolls{overflow-y: auto !important;}
+.form-control:disabled{background: transparent;}
+
+
+
+
+/*Radio Buttons*/
+.radio-btns .radio-btn{display: block;position: relative;float: left;}
+.radio-btns .radio-btn input[type=radio]{position: absolute;visibility: hidden;}
+.radio-btns .radio-btn label{font-family: "open sans";font-weight: normal;color: #646464;display: block;position: relative;font-size: 16px;padding: 0px 25px 0px 27px;margin: 10px auto;z-index: 9;cursor: pointer;
+-webkit-transition: all 0.25s linear;}
+.radio-btns .radio-btn .check{display: block;position: absolute;border: 2px solid #AAAAAA;border-radius: 100%;height: 20px;width: 20px;top: 12px;left: 0px;z-index: 5;transition: border .25s linear;-webkit-transition: border .25s linear;}
+.radio-btns .radio-btn .check::before {border-radius: 100%;content: "";display: block;height: 10px;left: 3px;margin: auto;position: absolute;top: 3px;transition: background 0.25s linear 0s;width: 10px;}
+.radio-btns input[type=radio]:checked ~ .check {border: 2px solid #ffc740;}
+.radio-btns input[type=radio]:checked ~ .check::before{background: #ffc740;}
+.radio-btns input[type=radio]:checked ~ label{  color: #ffc740;}
+
+
+
+
+
+.form-group select {
+    background-image: url(../../images/select-arrow.png);
+    background-repeat: no-repeat;    
+    padding-right: 30px;
+}

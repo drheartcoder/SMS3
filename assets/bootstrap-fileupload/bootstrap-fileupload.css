@@ -1,0 +1,149 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  font-size: 23px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+
+  direction: ltr;
+}
+
+.fileupload {
+  margin-bottom: 9px;
+}
+
+.fileupload .uneditable-input {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  cursor: text;
+  overflow: hidden;
+  max-height: 34px;
+}
+.fileupload .fileupload-preview {
+  line-height: 21px;
+}
+
+.fileupload .img-thumbnail {
+  display: inline-block;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+width: 110px;
+    height: 110px;
+}
+
+.fileupload.fileupload-new .btn.btn-default.btn-file .fileupload-new{display: none;}
+.fileupload.fileupload-new .btn.btn-default.btn-file{width: 111px;height: 32px;position: relative;}
+.fileupload.fileupload-new .btn.btn-default.btn-file:before{content: "Select Photo";}
+.fileupload.fileupload-new{position: relative; display: block; width: 110px;}
+.fileupload.fileupload-new .red:before{position: absolute;top: 50px;left: -9px;border-top: 10px solid transparent; border-bottom: 10px solid transparent;border-right: 10px solid #f4f4f4;content: "";}
+
+/*.fileupload.fileupload-new .red{ position: absolute;padding: 15px;border-radius: 5px;max-width: 240px;width: 100%;background: #f1f1f3;bottom: 0;left: 130px;display: none;color: #333; font-style: normal;}*/
+/*.fileupload.fileupload-new:hover .red{display: block;}*/
+.fileupload.fileupload-new .red{ position: absolute;padding: 15px;border-radius: 5px; width: 290px; background: #f1f1f3;bottom: 0;left: 130px;/*display: none;*/color: #333; font-style: normal;
+opacity: 0;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scale3d(0.7,0.3,1);
+    transform: scale3d(0.7,0.3,1);
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.fileupload.fileupload-new:hover .red{/*display: block;*/
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+    transform: translate3d(0,0,0) rotate3d(0,0,0,0);
+}
+
+
+.fileupload .img-thumbnail > img {
+  display: inline-block;
+  max-height: 100%;
+  vertical-align: middle;
+  max-width: 100%;
+    height: auto;
+}
+
+.fileupload .btn {
+  vertical-align: middle;
+}
+
+.fileupload-exists .fileupload-new,
+.fileupload-new .fileupload-exists {
+  display: none;
+}
+
+.fileupload-inline .fileupload-controls {
+  display: inline;
+}
+
+.fileupload-new .input-group .btn-file {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.img-thumbnail-borderless .img-thumbnail {
+  padding: 0;
+  border: none;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.fileupload-new.img-thumbnail-borderless .img-thumbnail {
+  border: 1px solid #ddd;
+}
+
+.control-group.warning .fileupload .uneditable-input {
+  color: #a47e3c;
+  border-color: #a47e3c;
+}
+
+.control-group.warning .fileupload .fileupload-preview {
+  color: #a47e3c;
+}
+
+.control-group.warning .fileupload .img-thumbnail {
+  border-color: #a47e3c;
+}
+
+.control-group.error .fileupload .uneditable-input {
+  color: #b94a48;
+  border-color: #b94a48;
+}
+
+.control-group.error .fileupload .fileupload-preview {
+  color: #b94a48;
+}
+
+.control-group.error .fileupload .img-thumbnail {
+  border-color: #b94a48;
+}
+
+.control-group.success .fileupload .uneditable-input {
+  color: #468847;
+  border-color: #468847;
+}
+
+.control-group.success .fileupload .fileupload-preview {
+  color: #468847;
+}
+
+.control-group.success .fileupload .img-thumbnail {
+  border-color: #468847;
+}

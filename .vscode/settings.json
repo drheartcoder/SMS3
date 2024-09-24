@@ -1,0 +1,35 @@
+{
+    "editor.tabCompletion": true,
+    "git.enabled": false,
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "jade",
+        "javascriptreact",
+        "latex",
+        "less",
+        "markdown",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    "cSpell.enabled": false,
+    "cSpell.words": [
+        ""
+    ],
+    "php.validate.enable": true,
+    "codemetrics.basics.EnabledForJS": false,
+    "trailing-spaces.highlightCurrentLine": true,
+    "files.trimTrailingWhitespace": true,
+    "trailing-spaces.liveMatching": false
+}
